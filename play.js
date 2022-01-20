@@ -6,5 +6,5 @@ const { setupInput } = require('./input');
 
 console.log("Connecting ...");
 connect();
-
-setupInput();
+const rtnObj = connect();
+setupInput(rtnObj);
