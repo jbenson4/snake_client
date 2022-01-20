@@ -4,7 +4,11 @@ const handleUserInput = (data) => {
     w: 'Move: up',
     a: 'Move: left',
     s: 'Move: down',
-    d: 'Move: right'
+    d: 'Move: right',
+    r: 'Say: Geronimo!',
+    q: 'Say: Hello!',
+    e: 'Say: Please', 
+    f: 'Say: gg'
   }
   if (data === '\u0003') {
     process.exit();
